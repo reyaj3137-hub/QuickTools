@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QuickTools - ১০০% ফ্রি অল-ইন-ওয়ান টুলস ওয়েবসাইট</title>
-    <meta name="description" content="একটি ক্লিকে ব্যবহার করুন ২৭+ ফ্রি অনলাইন টুলস।">
+    <title>QuickTools - Free Online Web Utilities & Tools</title>
+    <meta name="description" content="Access 27+ free online web tools including image converters, text utilities, PDF tools, and calculators. 100% private and client-side.">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%234F46E5'/><path d='M55 25L35 52h14l-6 26 20-26H49l6-26z' fill='%23FFFFFF'/></svg>">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans min-h-screen flex flex-col">
 
-    <!-- Header -->
     <header class="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-            <a href="#" class="flex items-center space-x-2">
+            <a href="index.html" class="flex items-center space-x-2">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 50" class="h-10 w-auto">
                     <defs>
                         <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -26,33 +25,31 @@
                     <text x="55" y="32" font-family="sans-serif" font-weight="800" font-size="24" fill="#0F172A">Quick<tspan fill="#4F46E5">Tools</tspan></text>
                 </svg>
             </a>
-            <nav class="hidden md:flex space-x-6 text-sm font-medium text-gray-600">
-                <a href="#all-tools" class="hover:text-indigo-600">সব টুলস</a>
-            </nav>
+            <span class="text-xs font-semibold bg-indigo-50 text-indigo-600 px-3 py-1 rounded-full border border-indigo-100">100% Free & Private</span>
         </div>
     </header>
 
-    <!-- Top Banner Ad -->
     <div class="max-w-7xl mx-auto px-4 mt-4 w-full text-center">
-        <div class="bg-gray-200 border border-dashed border-gray-400 py-4 text-xs text-gray-500 rounded">
-            [ Header Ad Space - 728x90 ]
+        <div class="bg-gray-200 border border-dashed border-gray-400 py-3 text-xs text-gray-500 rounded">
+            [ Header Responsive Ad Space ]
         </div>
     </div>
 
-    <!-- Hero Section -->
     <section class="max-w-4xl mx-auto text-center px-4 py-10">
         <h1 class="text-3xl md:text-5xl font-extrabold text-gray-900 mb-4">
-            আপনার দৈনন্দিন কাজের <span class="text-indigo-600">ফ্রি অনলাইন টুলস</span>
+            Free Online Utilities for <span class="text-indigo-600">Everyday Tasks</span>
         </h1>
-        <p class="text-gray-600 mb-6">কোনো অ্যাকাউন্ট খোলা ছাড়াই ১০০% ফ্রিতে ব্রাউজারেই কাজ শেষ করুন।</p>
+        <p class="text-gray-600 mb-6">Fast, secure, browser-based tools. No signup required, zero server uploads.</p>
         
         <div class="relative max-w-xl mx-auto">
-            <input type="text" id="searchInput" placeholder="যেকোনো টুল খুঁজুন (যেমন: JPG to PNG)..." 
+            <input type="text" id="searchInput" placeholder="Search tools (e.g., JPG to PNG, Word Counter, QR Generator)..." 
                    class="w-full px-5 py-3 pl-12 rounded-full border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            <svg class="w-5 h-5 text-gray-400 absolute left-4 top-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+            </svg>
         </div>
     </section>
 
-    <!-- Tools Grid -->
     <main class="max-w-7xl mx-auto px-4 flex-grow w-full mb-12">
         <div id="toolsGrid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
     </main>
@@ -63,4 +60,4 @@
 
     <script src="script.js"></script>
 </body>
-</html>
+    </html>
